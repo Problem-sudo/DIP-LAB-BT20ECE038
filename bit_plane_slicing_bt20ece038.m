@@ -3,16 +3,6 @@ close;
 clear;
 clc;
 
-%a = randi([0,255],3,3)
-
-%b = dec2bin(a,8)
-
-%img = imread("image4.jpg");
-
-%img_gs = rgb2gray(img);
-
-%[r c] = size(img_gs)
-
 % Load your grayscale image
 originalImage = imread('image4.jpg'); % Replace 'your_image.jpg' with your image file
 
@@ -62,7 +52,3 @@ figure;
 imshow(modifiedImage);
 title('Image with LSB Plane Removed');
 
-% You can access each bit plane using bitPlanes(:,:,bitNumber)
-% For example, bitPlane1 = bitPlanes(:,:,1);
-
-% Note: You may need to adjust the file path and image format as per your image file.
