@@ -39,7 +39,7 @@ subplot(1,3,3)
 imshow('C:\Users\user\Documents\MATLAB')
 title('JPEG 2000 compressed')
 
-%%%Inverse JPEG-2000
+%Inverse JPEG-2000
 rgb_Xrec=idwt2(LL,LH,HL,HH,'haar');
 figure(3);
 imshow(uint8(rgb_Xrec));
