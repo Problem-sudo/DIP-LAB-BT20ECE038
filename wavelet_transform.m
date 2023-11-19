@@ -1,6 +1,3 @@
-% this file performing wavelet comprassion  %
-       % created by dharmendra (BT20ECE074) %
-       % date - 10/03/2023 %
        
 close all;
 clear all;
