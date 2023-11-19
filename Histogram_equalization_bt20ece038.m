@@ -1,5 +1,4 @@
-% Digital Image Processing Matlab codes by 
-% Mayank Patidar ( BT20ECE064 )
+
 % Generate histogram and perform histogram equalization
 clc;
 clear;
